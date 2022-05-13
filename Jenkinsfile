@@ -9,7 +9,7 @@ pipeline {
                 label 'SonarQube on AWS'
             }
             steps {
-                git 'https://github.com/shashank-ssriva/Employee-App.git'
+                git 'https://github.com/shashank-ssriva/Employee-App-DevOps-Training.git'
             }
         }
         stage('SonarQube Analysis') {
